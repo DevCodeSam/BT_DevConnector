@@ -1,0 +1,37 @@
+{
+  "name": "bt_devconnector",
+  "version": "1.0.0",
+  "description": "Social network for developers",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "git": "^0.1.5",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mime": "^2.4.4",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevCodeSam/BT_DevConnector.git"
+  },
+  "author": "Develop Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevCodeSam/BT_DevConnector/issues"
+  },
+  "homepage": "https://github.com/DevCodeSam/BT_DevConnector#readme"
+}
